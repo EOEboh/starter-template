@@ -1,5 +1,5 @@
-const endPoint = 'https://prod-in.100ms.live/hmsapi/skype-clone.app.100ms.live/';
-const room_id = 'put your room id here';
+const endPoint = 'your token_endpoint';
+const room_id = 'your room id';
 
 export default async function getToken(role) {
   const response = await fetch(`${endPoint}api/token`, {
